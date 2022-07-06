@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+	<title>aca</title>
+	<link rel="stylesheet" href="aca.css">
+</head>
+<body>
+
+	<div class="badan-utama">
+	
+		<header>
+			<h2>UNTUK MANUSIA BAIK NAN CANTIK (katanya)</h2>
+			<p>Yang Katanya Abis Sempro, yang aku gatau sempronya lancar atau engga.</p>
+		</header>
+		<footer>
+		<a href="aca3.html">Click Here</a>
+		</footer>
+		
+		
+		
+		<script>
+	let slideIndex = 0;
+	showSlides();
+	function showSlides() {
+		let i;
+		let slides = document.getElementsByClassName("mySlides");
+		for (i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";
+		}
+		slideIndex++;
+		if (slideIndex > slides.length){slideIndex = 1}
+		slides[slideIndex-1].style.display = "block";
+		setTimeout(showSlides, 8000);
+		}
+		</script>
+		
+</body>
+</html>

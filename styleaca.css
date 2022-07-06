@@ -1,0 +1,488 @@
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+	background-color: gainsboro;
+}
+
+.badan-utama
+{
+	max-width: 1080px;
+	margin: 20px auto;
+	background-color: white;
+	padding: 15px;
+	overflow: hidden;
+}
+
+header
+{
+	background-color:#FF69B4;
+	color: white;
+	padding: 20px;
+}
+
+header h2
+{
+	margin-bottom: 7px;
+	font-size: 35px;
+}
+
+.navigasi ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: darkorange;
+	font-family: comic sans-serif, helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.navigasi li
+{
+	float: left;
+}
+
+.navigasi li a
+{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+.navigasi li a:hover
+{
+	background-color: red;
+	transition-duration: 0.5s;
+}
+
+.banner
+{
+	margin-bottom: 15px;
+}
+
+.banner
+{
+	display: block;
+	width: 100%;
+	height: 330px;
+}
+
+.kotak
+{
+	border: 1px solid gainsboro;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+.kotak h3
+{
+	background-color: darkorange;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 13px;
+}
+
+.kotak
+{
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.kotak p
+{
+	margin-bottom: 10px;
+}
+
+.menu-kiri
+{
+	width: 250px;
+	margin-right: 10px;
+	float: left;
+}
+
+.menu-tengah
+{
+	width: 530px;
+	margin-right: 10px;
+	float: left;
+}
+
+.menu-tengah h3
+{
+	background: none;
+	color: crimson;
+	margin-bottom: 0;
+}
+
+.tanggal-posting
+{
+	color: gray;
+	text-align: right;
+	font-size: 12px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.tombol
+{
+	display: block;
+	text-decoration: none;
+	padding: 10px;
+	width: 120px;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.tombol:hover
+{
+	background-color: black;
+	transition-duration: 0.5s;
+}
+
+.tombol-pendaftaran
+{
+	background-color: green;
+}
+
+.tombol-lengkap
+{
+	background-color: green;
+}
+
+.menu-kanan
+{
+	width: 250px;
+	float: left;
+}
+
+.menu-kanan, .menu-kiri, .menu-tengah
+{
+	margin-bottom: 15px;
+}
+
+footer
+{
+	clear: both;
+	background-color: crimson;
+	color: white;
+	padding: 15px;
+	text-align: center;
+}
+
+.menu-artikel ul
+{
+	list-style-type: none;
+}
+
+.menu-artikel ul li a
+{
+	text-decoration: none;
+	display: block;
+	padding: 5px;
+	border-bottom: 1px solid gainsboro;
+	margin-bottom: 12px;
+	color: black;
+}
+
+.menu-artikel ul li a:hover
+{
+	color: darkorange;
+	border-bottom: 5px double chocolate;
+	transition-duration: 0.5s;
+}
+/*page profil by ARVIN 215720010*/
+.wrapaa table
+{
+	background-color: white;
+	border: 0px;
+	width: 100%;
+	height: 300px;
+	text-align: left;
+	font-size: 24px;
+}
+.wrapaa th
+{
+	width: 50%;
+}
+
+.wrapab table
+{
+	background-color: white;
+	border: 0px;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+.wrapab h2, th
+{
+	background-color: white;
+	text-align: center;
+	font-size:32px;
+	color: green;
+}
+.wrapab td
+{
+	font-size:16px;
+	width: 30%;
+}
+.wrapac table
+{
+	background-color: white;
+	border: 0px;
+	width: 100%;
+	height: 400px;
+	text-align: left;
+	vertical-align: top;
+}
+.wrapac
+{
+	width: 400px ; 
+	height: 300px; 
+}
+.wrapad table
+{
+	background-color: white;
+	border: 0px;
+	width: 100%;
+	height: 400px;
+	text-align: center;
+}
+.wrapad td
+{
+	font-size:24px;
+	width: 25%;
+}
+/*untuk tablet*/
+@media screen and (max-width:1080px)
+{
+	.badan-utama
+	{
+		width: 100%:
+	}
+	
+	.menu-kiri
+	{
+		width: 25%
+	}
+	
+	.menu-tengah
+	{
+		width: 68%;
+		float: right;
+	}
+	
+	.menu-kanan
+	{
+		clear: both;
+		float: none;
+		width: 100%
+	}
+}
+
+/*untuk android*/
+@media screen and (max-width:780px)
+{
+	header h2, header p
+	{
+		text-align: center;
+	}
+	
+	.menu-kiri, .menu-kanan, .menu-tengah
+	{
+		float: none;
+		width: 100%;
+	}
+	
+	.navigasi li
+	{
+		float: none;
+	}
+}
+
+/* css halaman lembaga */
+.box-ctn
+{
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	padding: auto;
+}
+
+.box-ctn2
+{
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	background-color: #0090ff;
+	padding: 10px 20px 10px 20px;
+}
+
+.box
+{
+	display: table-cell;
+	padding: 5px;
+	vertical-align: middle;
+}
+
+.box2
+{
+	display: table-cell;
+	padding: 5px;
+	vertical-align: top;
+}
+
+.jdla
+{
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.jdlb
+{
+	font-size: 32px;
+	font-weight: bold;
+	color: #0090ff;
+}
+
+.jdlc
+{
+	font-size: 54px;
+	font-weight: bold;
+	color: #0090ff;
+}
+
+.jdld
+{
+	font-size: 38px;
+	font-weight: bold;
+}
+
+.jdle
+{
+	font-size: 32px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.dsca
+{
+	font-size: 18px;
+	color: #aaa;
+}
+
+.dscb
+{
+	font-size: 16px;
+	color: #fff;
+}
+
+.dscc
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.grsa
+{
+	display: block;
+	width: 70px;
+	height: 3px;
+	background-color: #0090ff;
+}
+.ctr
+{
+	text-align: center;
+}
+
+.boxa
+{
+	border: 2px solid #ccc;
+	padding: 10px;
+	display: table-cell;
+	border-radius: 25px;
+}
+
+.btna
+{
+	display: block;
+	background-color: #0090ff;
+	color: #fff;
+	font-size: 14px;
+	width: 200px;
+	height: 50px;
+	margin: 20px;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+.btnb
+{
+	display: block;
+	background-color: #fff;
+	color: #0090ff;
+	font-size: 14px;
+	width: 200px;
+	height: 50px;
+	margin: 20px;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+a
+{
+	color: #0090ff;
+}
+
+/*css slideshow*/
+* {box-sizing: border-box}
+.mySlides {
+	display: none;
+}
+img {
+	vertical-align: middle;
+}
+
+.slideshow-container {
+	max-width: 1010px;
+	position: relative;
+	margin: auto;
+}
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: absolute;
+	top: 0;
+}
+.active {
+	background-color: #717171;
+}
+.fade	{
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+@keyframes fade {
+	from {opacity: .4}
+	to	{opacity: 1}
+}
+
+.dot {
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ACA NI BOSSS</title>
+	<link rel="stylesheet" href="styleaca.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<script language="Javascript">
+	function Login()
+	{
+	var username=document.login.username.value;
+	username=username.toLowerCase();
+	var password=document.login.password.value;
+	password=password.toLowerCase();
+	if (username=="rafasaflyah" && password=="6722")
+	{location.replace("aca2.html");
+	alert("Selamat datang di Website Ini");}
+	else
+	{alert("Salah ca sandinya, tolong la nanya, inisiatif");}
+	}
+	
+</script>
+
+<body>
+    <div class="badan-utama">
+        <header>
+            <h2>HALLO MANUSIA BAIK</h2>
+            <p>Selamat datang di website abal-abal ini, yang saya rancang khusus untuk anda.
+			Tapi ga khusus khusus banget si. but yeahh, i made this (shit/site) for you eheheh peace.</p>
+        </header>
+       
+	
+		<div class="menu-kiri">
+            <div class="kotak" align="center">
+                <h3>Silakan Masuk Ya biar bisa liat isi nya</h3>
+                <p>Belum punya akun? dan gatau password? 
+				ya resiko ahahaha</p>
+            </div>
+        </div>
+        <div class="menu-tengah" align="center">
+            <div class="kotak">
+                <!--start login form-->
+				<table align="center">
+					<tr>
+						<th colspan="2">Selamat Datang</th>
+					</tr>
+					<form name="login" method="post">
+					<tr>
+						<td>Nama Pengguna</td>
+						<td><input type="text" name="username" align="center"></td>
+					</tr>
+					<tr>
+						<td>Kata Sandi</td>
+						<td><input type="password" name="password"></td>
+					</tr>
+					<tr>
+						<td colspan="2" align="center"><input type="button" value="Masuk" onclick="Login()"></td>
+					</tr>
+				 </table>
+				 <!--end login form-->
+            </div>
+        </div>
+        <div class="menu-kanan">
+            <div class="kotak">
+                <h3>Perlu bantuan kah</h3>
+                <h4 align="center">Silakan Hubungi</h4>
+                <center><p>@mzagustinn on Instagram</p></center>
+            </div>
+        </div>
+		<footer>
+		Copyright 2022
+		</footer>
+	</div>
+</body>
+</html>
